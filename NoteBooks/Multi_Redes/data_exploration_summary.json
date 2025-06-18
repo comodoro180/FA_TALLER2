@@ -1,0 +1,61 @@
+{
+  "datasets_loaded": {
+    "train": true,
+    "test": true,
+    "submission": true
+  },
+  "train_shape": [
+    3680,
+    20
+  ],
+  "test_shape": [
+    520,
+    19
+  ],
+  "submission_shape": [
+    520,
+    2
+  ],
+  "temporal_range": {
+    "train_years": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "test_years": [
+      "2022"
+    ]
+  },
+  "spatial_info": {
+    "n_barrios": 10,
+    "barrio_range": [
+      "0",
+      "9"
+    ]
+  },
+  "target_variable": {
+    "name": "dengue",
+    "stats": {
+      "count": 3680.0,
+      "mean": 2.6095108695652174,
+      "std": 3.5238428793149574,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 29.0
+    }
+  },
+  "quality_issues": [
+    "'dengue' tiene 9.0% outliers",
+    "'concentraciones' tiene 11.5% outliers",
+    "'vivienda' tiene 6.5% outliers",
+    "'equipesado' tiene 6.9% outliers",
+    "'maquina' tiene 10.2% outliers",
+    "'lluvia_var' tiene 8.2% outliers"
+  ]
+}

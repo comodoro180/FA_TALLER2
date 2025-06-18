@@ -1,0 +1,133 @@
+{
+  "barrio_analysis": {
+    "total_barrios": 10,
+    "top_incidence_neighborhoods": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "avg_cases_per_neighborhood": 2.6095
+  },
+  "seasonality_analysis": {
+    "peak_week": "9",
+    "peak_value": 5.057,
+    "seasonal_ratio": 4.214166666666667
+  },
+  "correlation_analysis": {
+    "strongest_correlations": {
+      "dengue": 1.0,
+      "temperatura_min": 0.18551529212787804,
+      "temperatura_mean": 0.12774311966220445,
+      "lluvia_mean": 0.10765214883125185,
+      "sumideros": 0.1072402559079595
+    },
+    "significant_autocorr_lags": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "best_climate_lags": {
+      "lluvia_mean": [
+        [
+          0,
+          -0.13380651002168212
+        ],
+        [
+          1,
+          -0.15535492360433656
+        ],
+        [
+          2,
+          -0.14725988345974578
+        ],
+        [
+          3,
+          -0.1285329116266652
+        ],
+        [
+          4,
+          -0.11580124453546747
+        ],
+        [
+          5,
+          -0.12332693390268186
+        ],
+        [
+          6,
+          -0.12675606158952163
+        ],
+        [
+          7,
+          -0.13231514073497974
+        ]
+      ],
+      "temperatura_mean": [
+        [
+          0,
+          0.1587786329102891
+        ],
+        [
+          1,
+          0.1537885892777439
+        ],
+        [
+          2,
+          0.14767476683870234
+        ],
+        [
+          3,
+          0.13996726168119206
+        ],
+        [
+          4,
+          0.12585791849199193
+        ],
+        [
+          5,
+          0.10241249206405875
+        ],
+        [
+          6,
+          0.08749010562191563
+        ],
+        [
+          7,
+          0.08712411973588866
+        ]
+      ]
+    }
+  },
+  "window_analysis": {
+    "recommended_windows": {
+      "autocorrelacion": 20,
+      "climaticas": 1,
+      "estacional": 13,
+      "rendimiento": 4
+    },
+    "experimental_windows": [
+      4,
+      8,
+      12
+    ],
+    "final_recommendation": 8
+  }
+}

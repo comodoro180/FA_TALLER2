@@ -1,0 +1,45 @@
+{
+  "project_name": "dengue_prediction_time_series",
+  "version": "1.1.0",
+  "timestamp": "20250615_082924",
+  "data_info": {
+    "train_years": "2015-2021",
+    "prediction_year": 2022,
+    "data_directory": "..\\..\\Datos"
+  },
+  "model_config": {
+    "models_to_train": [
+      "RNN",
+      "LSTM",
+      "GRU"
+    ],
+    "sequence_lengths": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "validation_split": 0.2,
+    "device": "cuda"
+  },
+  "optimization_config": {
+    "n_trials": 100,
+    "timeout": 3600,
+    "primary_metric": "rmse",
+    "metrics_tracked": [
+      "mae",
+      "mse",
+      "rmse",
+      "mape"
+    ]
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "pytorch_deterministic": true
+  },
+  "library_status": {
+    "darts_available": true,
+    "darts_new_version": true,
+    "optuna_available": true
+  }
+}

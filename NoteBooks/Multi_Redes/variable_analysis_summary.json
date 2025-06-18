@@ -1,0 +1,120 @@
+{
+  "original_variables": 21,
+  "engineered_variables": 39,
+  "final_variables": 28,
+  "selection_strategies": [
+    "random_forest_top25",
+    "correlation_top20",
+    "engineered_top15",
+    "mixed_strategy",
+    "conservative"
+  ],
+  "recommended_variables": [
+    "area_barrio",
+    "temperatura_max",
+    "lluvia_mean",
+    "temperatura_mean",
+    "lluvia_max",
+    "sumideros",
+    "ESTRATO",
+    "concentraciones",
+    "equipesado",
+    "vivienda",
+    "maquina",
+    "temperatura_var",
+    "temperatura_min",
+    "lluvia_var",
+    "dengue_lag_1",
+    "lluvia_min",
+    "dengue_ma_2",
+    "dengue_ma_4",
+    "dengue_ma_8",
+    "dengue_ma_12",
+    "dengue_vol_8",
+    "dengue_vol_4",
+    "dengue_change_4",
+    "dengue_lag_8",
+    "dengue_change_1",
+    "dengue_trend",
+    "semana_sin",
+    "temp_range_8"
+  ],
+  "high_consensus_variables": [
+    "area_barrio",
+    "temperatura_max",
+    "lluvia_mean",
+    "temperatura_mean",
+    "lluvia_max",
+    "sumideros",
+    "ESTRATO",
+    "concentraciones",
+    "equipesado",
+    "vivienda",
+    "maquina",
+    "temperatura_var",
+    "temperatura_min",
+    "lluvia_var",
+    "dengue_lag_1"
+  ],
+  "feature_categories": {
+    "lag": [
+      "dengue_lag_1",
+      "lluvia_lag_1",
+      "temp_lag_1",
+      "dengue_lag_2",
+      "lluvia_lag_2",
+      "temp_lag_2",
+      "dengue_lag_4",
+      "lluvia_lag_4",
+      "temp_lag_4",
+      "dengue_lag_8",
+      "lluvia_lag_8",
+      "temp_lag_8"
+    ],
+    "moving_average": [
+      "dengue_ma_2",
+      "lluvia_ma_2",
+      "temp_ma_2",
+      "dengue_ma_4",
+      "lluvia_ma_4",
+      "temp_ma_4",
+      "dengue_ma_8",
+      "lluvia_ma_8",
+      "temp_ma_8",
+      "dengue_ma_12",
+      "lluvia_ma_12",
+      "temp_ma_12"
+    ],
+    "volatility": [
+      "dengue_vol_4",
+      "lluvia_vol_4",
+      "dengue_vol_8",
+      "lluvia_vol_8"
+    ],
+    "change": [
+      "dengue_change_1",
+      "dengue_change_4"
+    ],
+    "seasonal": [
+      "semana_sin",
+      "semana_cos"
+    ],
+    "interaction": [
+      "lluvia_temp_interaction",
+      "lluvia_temp_ratio"
+    ],
+    "range": [
+      "temp_range_4",
+      "lluvia_range_4",
+      "temp_range_8",
+      "lluvia_range_8"
+    ],
+    "trend": [
+      "dengue_trend"
+    ]
+  },
+  "data_shape": [
+    3680,
+    63
+  ]
+}
