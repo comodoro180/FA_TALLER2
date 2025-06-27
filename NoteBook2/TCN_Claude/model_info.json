@@ -1,0 +1,48 @@
+{
+    "best_hyperparameters": {
+        "window_size": 47,
+        "learning_rate": 3.809364979874407e-05,
+        "n_layers": 2,
+        "n_channels_l0": 61,
+        "n_channels_l1": 23,
+        "kernel_size": 2,
+        "dropout": 0.15314695726351546,
+        "batch_size": 16
+    },
+    "final_train_loss": 6.716851330782051,
+    "final_val_loss": 0.9498346885045369,
+    "window_size": 47,
+    "numerical_vars": [
+        "id",
+        "area_barrio",
+        "concentraciones",
+        "vivienda",
+        "equipesado",
+        "sumideros",
+        "maquina",
+        "lluvia_mean",
+        "lluvia_var",
+        "lluvia_max",
+        "lluvia_min",
+        "temperatura_mean",
+        "temperatura_var",
+        "temperatura_max",
+        "temperatura_min"
+    ],
+    "categorical_vars": [
+        "id_bar",
+        "ESTRATO"
+    ],
+    "embedding_dims": {
+        "id_bar": 6,
+        "ESTRATO": 2
+    },
+    "model_architecture": {
+        "num_channels": [
+            61,
+            23
+        ],
+        "kernel_size": 2,
+        "dropout": 0.15314695726351546
+    }
+}
