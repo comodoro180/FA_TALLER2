@@ -1,10 +1,11 @@
 # FA_TALLER2
 FA II 2025-I: Prónosticos NN-RNN-CNN
 
-https://www.kaggle.com/competitions/fa-ii-2025-i-pronosticos-nn-rnn-cnn
+Competencia Kaggle: https://www.kaggle.com/competitions/fa-ii-2025-i-pronosticos-nn-rnn-cnn
 
-
-A continuación, se presenta un resumen de cada uno de los archivos adjuntos, comenzando por el EDA:
+## Autores
+- **Alexandra López Cuenca**  
+- **Carlos Arturo Hoyos Rincón**
 
 ### Resumen de Archivos
 
